@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="pe.plantilla.api.repository.PersonaRepository">
+
+	<resultMap id="PersonaResultMap" type="pe.plantilla.api.model.Persona" />
+
+	<select id="getEntity" resultMap="PersonaResultMap">
+		select 
+		 B.id,B.nombres,B.apellidos,B.telefono,
+		 B.correo,B.direccion,B.fecha_nacimiento,B.dni,
+		 B.estado,B.fecha_creacion,B.creado_por,
+		 B.fecha_modifcacion,B.modifcado_por,B.eliminado_por
+		from
+		personas B where B.id = #{id}
+	</select>
+	
+	<insert id="saveEntity" useGeneratedKeys="true" keyProperty="id" parameterType="pe.plantilla.api.model.Persona" >
+        insert into personas(nombres,apellidos,telefono,
+		 correo,direccion,fecha_nacimiento,dni,
+		 estado,fecha_creacion,creado_por,
+		 fecha_modifcacion,modifcado_por,eliminado_por) 
+		values(#{nombres},#{apellidos},#{telefono},
+		#{correo},#{direccion},#{fecha_nacimiento},#{dni},
+		#{estado},#{fecha_creacion},#{creado_por},#{fecha_modifcacion},
+		#{modifcado_por},#{eliminado_por})
+    </insert>
+    
+    <update id="deleteEntity">
+     Update personas
+      set estado = 0
+      where id = #{id}
+    </update>
+   
+     <update id="updateEntity" parameterType="pe.plantilla.api.model.Persona" >
+      Update personas
+      set 
+      nombres = #{nombres},apellidos = #{apellidos},telefono = #{telefono},
+	  correo = #{correo},direccion = #{direccion},fecha_nacimiento = #{fecha_nacimiento},
+	  dni = #{dni}, estado = #{estado},fecha_creacion = #{fecha_creacion},creado_por = #{creado_por},
+	  fecha_modifcacion = #{fecha_modifcacion} ,modifcado_por = #{modifcado_por},eliminado_por = #{eliminado_por}
+      where id = #{id}
+    </update>
+    
+</mapper>

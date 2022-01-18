@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="pe.plantilla.api.repository.UsuarioRepository">
+	
+	<resultMap id="PersonaResultMap" type="pe.plantilla.api.model.Persona" />
+	
+	<resultMap id="UsuarioResultMap" type="pe.plantilla.api.model.Usuario" extends="PersonaResultMap"/>
+	
+	<resultMap id="UsuarioDtoResultMap" type="pe.plantilla.api.model.dto.UsuarioDto" extends="PersonaResultMap"/>
+
+	<select id="findByUsername" resultMap="UsuarioResultMap">
+		select A.id,
+		A.usuario,
+		A.password,
+		A.fechaUltAcc,
+		A.perfiles_id,
+		A.personas_id,
+		A.activo,
+		B.id,
+		B.nombres,
+		B.apellidos,
+		B.dni,
+		B.telefono,
+		B.direccion,
+		B.correo,
+		B.fecha_nacimiento,
+		B.estado,
+		B.fecha_creacion,
+		B.creado_por,
+		B.fecha_modifcacion,
+		B.modifcado_por,
+		B.eliminado_por
+		usuarioMod from usuarios A , personas B where A.personas_id = B.id and A.usuario = #{username}
+	</select>
+	
+	<select id="getEntity" resultMap="UsuarioResultMap">
+		select A.id,
+		A.usuario,
+		A.password,
+		A.fechaUltAcc,
+		A.perfiles_id,
+		A.personas_id,
+		A.activo,
+		B.id,
+		B.nombres,
+		B.apellidos,
+		B.dni,
+		B.telefono,
+		B.direccion,
+		B.correo,
+		B.fecha_nacimiento,
+		B.estado,
+		B.fecha_creacion,
+		B.creado_por,
+		B.fecha_modifcacion,
+		B.modifcado_por,
+		B.eliminado_por
+		usuarioMod from usuarios A , personas B where A.personas_id = B.id and A.id = #{id}
+	</select>
+	
+	<insert id="saveEntity" parameterType="pe.plantilla.api.model.Usuario" >
+        insert into usuarios(usuario,password,fechaUltAcc,
+		activo,perfiles_id,personas_id) 
+		values( 
+		#{usuario},#{password},#{fechaUltAcc},#{activo},
+		#{perfiles_id},#{personas_id})
+    </insert>
+    
+    <update id="disabledUserbyUsername">
+     Update usuarios
+      set activo = 0
+      where usuario = #{username}
+    </update>
+    
+    <update id="deleteEntity">
+     Update usuarios
+      set activo = 0
+      where id = #{idUsuario}
+    </update>
+    
+    <update id="actualizarUserByUsername" parameterType="pe.plantilla.api.model.Usuario" >
+      Update usuarios
+      set 
+      usuario = #{usuario},
+      password = #{password}, fechaUltAcc = #{fechaUltAcc},
+	  activo = #{activo}, perfiles_id = #{perfiles_id}
+      where usuario = #{usuario}
+    </update>
+    
+     <update id="updateEntity" parameterType="pe.plantilla.api.model.Usuario" >
+      Update usuarios
+      set 
+      usuario = #{usuario},
+      password = #{password}, 
+      fechaUltAcc = #{fechaUltAcc},
+	  activo = #{activo}, 
+	  perfiles_id = #{perfiles_id}
+      where id = #{idUsuario}
+    </update>
+    
+    <update id="updateEntityUsuario" parameterType="pe.plantilla.api.model.Usuario" >
+      Update usuarios
+      set 
+      usuario = #{usuario}, 
+      fechaUltAcc = #{fechaUltAcc},
+	  activo = #{activo}, 
+	  perfiles_id = #{perfiles_id}
+      where id = #{idUsuario}
+    </update>
+    
+    <select id="pagingEntitys" resultMap="UsuarioResultMap" parameterType="pe.plantilla.api.utils.dto.GeneralPageTable">
+		select A.id,
+		A.usuario,
+		A.password,
+		A.fechaUltAcc,
+		A.perfiles_id,
+		A.personas_id,
+		A.activo,
+		B.id,
+		B.nombres,
+		B.apellidos,
+		B.dni,
+		B.telefono,
+		B.direccion,
+		B.correo,
+		B.fecha_nacimiento,
+		B.estado,
+		B.fecha_creacion,
+		B.creado_por,
+		B.fecha_modifcacion,
+		B.modifcado_por,
+		B.eliminado_por,
+		C.mercados_id,
+		D.nombre nombre_perfil
+		from usuarios A 
+		inner join personas B on A.personas_id = B.id 
+		left join cobradores C on C.personas_id = B.id
+		inner join perfiles D on A.perfiles_id = D.id
+		<where>
+			<if test="search != null">
+				CONCAT(apellidos) LIKE CONCAT(#{search},'%')
+			</if>
+			<if test="habilitado != null">
+				and 
+				B.estado = #{habilitado}
+			</if>
+		</where>
+		<if test="sort != '' and sort != null">
+			ORDER BY ${sort} ${order}
+		</if>
+	</select>
+	
+	<select id="getAllEntitys" resultMap="UsuarioResultMap">
+		select A.id,
+		A.usuario,
+		A.password,
+		A.fechaUltAcc,
+		A.perfiles_id,
+		A.personas_id,
+		A.activo,
+		B.id,
+		B.nombres,
+		B.apellidos,
+		B.dni,
+		B.telefono,
+		B.direccion,
+		B.correo,
+		B.fecha_nacimiento,
+		B.estado,
+		B.fecha_creacion,
+		B.creado_por,
+		B.fecha_modifcacion,
+		B.modifcado_por,
+		B.eliminado_por
+		usuarioMod from usuarios A , personas B where A.personas_id = B.id 
+	</select>
+	
+	<select id="getDatosSession" resultMap="UsuarioDtoResultMap">
+		select A.id,
+		B.dni,
+		B.nombres,
+		B.apellidos,
+		B.direccion,
+		B.telefono,
+		B.correo,
+		B.fecha_nacimiento,
+		A.usuario,
+		A.password,
+		A.personas_id
+		from usuarios A , personas B 
+		where A.personas_id = B.id and 
+		      A.id = #{id}
+	</select>
+    
+</mapper>

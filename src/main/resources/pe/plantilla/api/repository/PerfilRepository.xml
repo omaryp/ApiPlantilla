@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="pe.plantilla.api.repository.PerfilRepository">
+
+	<resultMap id="PerfilResultMap" type="pe.plantilla.api.model.Perfil" />
+	<resultMap id="RolPerfilResultMap" type="pe.plantilla.api.model.RolPerfil" />
+
+	<select id="getEntity" resultMap="PerfilResultMap">
+		select A.id,
+		A.nombre,
+		A.descripcion,
+		A.estado,
+		A.fecha_creacion,
+		A.creado_por,
+		A.fecha_modifcacion,
+		A.modifcado_por,
+		A.eliminado_por
+		from perfiles A
+		where A.id = #{codigoPerfil}
+	</select>
+
+	<select id="getAllEntitys" resultMap="PerfilResultMap">
+		select A.id,
+		A.nombre,
+		A.descripcion,
+		A.estado,
+		A.fecha_creacion,
+		A.creado_por,
+		A.fecha_modifcacion,
+		A.modifcado_por,
+		A.eliminado_por
+		from perfiles A
+		where A.estado = 1
+	</select>
+
+	<insert id="saveEntity" parameterType="pe.plantilla.api.model.Perfil">
+		insert into perfiles(nombre,descripcion,estado,fecha_creacion,creado_por,fecha_modifcacion,modifcado_por,eliminado_por)
+		values(#{nombre},#{descripcion},#{estado},#{fecha_creacion},#{creado_por},#{fecha_modifcacion},#{modifcado_por},#{eliminado_por})
+	</insert>
+
+	<insert id="guardarRolesPerfil" parameterType="pe.plantilla.api.model.RolPerfil">
+		insert into perfiles_roles(perfiles_codigo,roles_codigo)
+		values
+		<foreach item="item" collection="list" separator=",">
+			(#{item.perfiles_codigo},#{item.roles_codigo})
+		</foreach>
+	</insert>
+
+	<update id="deleteEntity">
+		Update perfiles
+		set estado = 0
+		where id = #{codigoPerfil}
+	</update>
+	
+	<delete id="deleteRolPerfil">
+		delete from perfiles_roles
+		where roles_codigo = #{roles_codigo} and perfiles_codigo = #{perfiles_codigo}
+	</delete>
+
+	<update id="updateEntity" parameterType="pe.plantilla.api.model.Perfil">
+		Update perfiles
+		set 
+		nombre = #{nombre},
+		descripcion = #{descripcion},
+		estado = #{estado},
+		fecha_modifcacion = #{fecha_modifcacion},
+		modifcado_por = #{modifcado_por}
+		where id = #{id}
+	</update>
+	
+	<select id="pagingEntitys" resultMap="PerfilResultMap" parameterType="pe.plantilla.api.utils.dto.GeneralPageTable">
+		select A.id,
+		A.nombre,
+		A.descripcion,
+		A.estado,
+		A.fecha_creacion,
+		A.creado_por,
+		A.fecha_modifcacion,
+		A.modifcado_por,
+		A.eliminado_por
+		from perfiles A
+		<where>
+			<if test="search != null">
+				CONCAT(A.nombre) LIKE CONCAT(#{search},'%')
+			</if>
+			<if test="habilitado != null">
+				AND A.estado = #{habilitado}
+			</if>
+		</where>
+		<if test="sort != '' and sort != null">
+			ORDER BY ${sort} ${order}
+		</if>
+	</select>
+	
+</mapper>

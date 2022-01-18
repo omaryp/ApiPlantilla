@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="pe.plantilla.api.repository.RolRepository">
+
+	<resultMap id="RolResultMap" type="pe.plantilla.api.model.Rol" />
+
+	<select id="getRolesByPerfil" resultMap="RolResultMap">
+		select A.id,
+		A.nombre,
+		A.nombre_menu,
+		A.url,
+		A.menu,
+		A.descripcion,
+		A.modulos_id,
+		A.estado,
+		A.fecha_creacion,
+		A.creado_por,
+		A.fecha_modifcacion,
+		A.modifcado_por,
+		A.eliminado_por
+		from
+		roles A
+		inner join perfiles_roles B on A.id = B.roles_id
+		where
+		B.perfiles_id = #{codigoPerfil} and A.estado = 1
+	</select>
+
+	<select id="getEntity" resultMap="RolResultMap">
+		select A.id,
+		A.nombre,
+		A.nombre_menu,
+		A.url,
+		A.menu,
+		A.descripcion,
+		A.modulos_id,
+		A.estado,
+		A.fecha_creacion,
+		A.creado_por,
+		A.fecha_modifcacion,
+		A.modifcado_por,
+		A.eliminado_por
+		from
+		roles A
+		where A.id =
+		#{codigo}
+	</select>
+
+	<select id="getAllEntitys" resultMap="RolResultMap">
+		select A.id,
+		A.nombre,
+		A.nombre_menu,
+		A.url,
+		A.menu,
+		A.descripcion,
+		A.modulos_id,
+		A.estado,
+		A.fecha_creacion,
+		A.creado_por,
+		A.fecha_modifcacion,
+		A.modifcado_por,
+		A.eliminado_por
+		from roles A
+		where A.estado = 1
+	</select>
+
+	<select id="pagingEntitys" resultMap="RolResultMap" parameterType="pe.plantilla.api.utils.dto.GeneralPageTable">
+		select A.id,
+		A.nombre,
+		A.nombre_menu,
+		A.url,
+		A.menu,
+		A.descripcion,
+		A.modulos_id,
+		A.estado,
+		A.fecha_creacion,
+		A.creado_por,
+		A.fecha_modifcacion,
+		A.modifcado_por,
+		A.eliminado_por
+		from roles A
+		<where>
+			<if test="search != null">
+				CONCAT(A.nombre) LIKE CONCAT(#{search},'%')
+			</if>
+			<if test="habilitado != null">
+				AND A.estado = #{habilitado}
+			</if>
+		</where>
+		<if test="sort != '' and sort != null">
+			ORDER BY ${sort}  ${order}
+		</if>
+	</select>
+
+	<select id="getRolesByUsuario" resultMap="RolResultMap">
+		select C.id,
+		C.nombre,
+		C.nombre_menu,
+		C.url,
+		C.menu,
+		C.descripcion,
+		C.modulos_id,
+		C.estado,
+		C.fecha_creacion,
+		C.creado_por,
+		C.fecha_modifcacion,
+		C.modifcado_por,
+		C.eliminado_por
+		from usuarios A
+		inner join
+		perfiles_roles B on A.perfiles_id =
+		B.perfiles_id
+		inner join
+		roles C on C.id = B.roles_id
+		where
+		A.usuario = #{usuario} and
+		C.estado = 1
+	</select>
+
+	<select id="getRolesByUsuarioModulo" resultMap="RolResultMap">
+		select distinct
+		C.id,
+		C.nombre,
+		C.nombre_menu,
+		C.url,
+		C.menu,
+		C.descripcion,
+		C.modulos_id,
+		C.estado,
+		C.fecha_creacion,
+		C.creado_por,
+		C.fecha_modifcacion,
+		C.modifcado_por,
+		C.eliminado_por
+		from usuarios A
+		inner join perfiles_roles B on A.perfiles_id =
+		B.perfiles_id
+		inner join roles C on C.id = B.roles_id
+		where
+		C.estado = 1 and
+		A.usuario =
+		#{usuario} and C.estado = 1 and C.modulos_id =
+		#{modulo}
+	</select>
+
+	<insert id="saveEntity" parameterType="pe.plantilla.api.model.Rol">
+		insert into
+		roles(nombre,nombre_menu,menu,url,descripcion,modulos_id,estado,fecha_creacion,creado_por,fecha_modifcacion,modifcado_por,eliminado_por)
+		values(#{nombre},#{nombre_menu},#{menu},#{url},#{descripcion},#{modulos_id},#{estado},#{fecha_creacion},#{creado_por},#{fecha_modifcacion},#{modifcado_por},#{eliminado_por})
+	</insert>
+
+	<update id="deleteEntity">
+		Update roles
+		set estado = 0
+		where id = #{codigoRol}
+	</update>
+
+	<update id="updateEntity" parameterType="pe.plantilla.api.model.Rol">
+		Update roles
+		set
+		nombre = #{nombre} ,
+		menu = #{menu},
+		nombre_menu = #{nombre_menu},
+		url = #{url},
+		descripcion = #{descripcion},
+		modulos_id = #{modulos_id},
+		estado = #{estado},
+		fecha_modifcacion = #{fecha_modifcacion},
+		modifcado_por = #{modifcado_por}
+		where id = #{id}
+	</update>
+
+</mapper>
