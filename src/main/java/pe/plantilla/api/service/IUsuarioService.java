@@ -5,6 +5,7 @@ import java.util.Map;
 import com.github.pagehelper.PageInfo;
 
 import pe.plantilla.api.model.Usuario;
+import pe.plantilla.api.model.dto.UsuarioDto;
 import pe.plantilla.api.model.dto.UsuarioSessionDto;
 import pe.plantilla.api.utils.ApiException;
 
@@ -24,4 +25,5 @@ public interface IUsuarioService extends IBasicService<Usuario>{
 
 	PageInfo<Usuario> paginandoUsuario(Map<String, String> params) throws ApiException;
 
+	UsuarioDto quitarAuth(UsuarioDto old);
 }

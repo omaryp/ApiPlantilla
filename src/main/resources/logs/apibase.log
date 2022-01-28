@@ -7171,3 +7171,1063 @@ java.lang.NullPointerException: Cannot invoke "pe.plantilla.api.service.IRolServ
 2021-12-03 00:36:57.136 [restartedMain] [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
 2021-12-03 00:36:57.141 [restartedMain] [INFO ] pe.plantilla.api.ApiBaseApplication - Started ApiBaseApplication in 0.543 seconds (JVM running for 476.562)
 2021-12-03 00:36:57.142 [restartedMain] [INFO ] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-01-18 22:23:27.998 [background-preinit] [INFO ] org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.13.Final
+2022-01-18 22:23:28.022 [restartedMain] [INFO ] pe.plantilla.api.ApiBaseApplication - Starting ApiBaseApplication using Java 11.0.11 on LSTKLM290304 with PID 3572 (C:\Users\omar.yarleque\Documents\Personal Project\latina\ApiPlantilla\target\classes started by omar.yarleque in C:\Users\omar.yarleque\Documents\Personal Project\latina\ApiPlantilla)
+2022-01-18 22:23:28.025 [restartedMain] [INFO ] pe.plantilla.api.ApiBaseApplication - No active profile set, falling back to default profiles: default
+2022-01-18 22:23:28.056 [restartedMain] [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-18 22:23:28.056 [restartedMain] [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-18 22:23:28.930 [restartedMain] [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-01-18 22:23:29.022 [restartedMain] [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 965 ms
+2022-01-18 22:23:29.105 [restartedMain] [INFO ] pe.plantilla.api.ApiBaseApplication$$EnhancerBySpringCGLIB$$7d3c42d - Log4j2 cargado desde el archivo : C:\Users\omar.yarleque\Documents\Personal Project\latina\ApiPlantilla\src\main\resources\log4j2.xml
+2022-01-18 22:23:29.417 [restartedMain] [INFO ] org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@270a3c70, org.springframework.security.web.context.SecurityContextPersistenceFilter@168e0d21, org.springframework.security.web.header.HeaderWriterFilter@7f5fb7c1, org.springframework.web.filter.CorsFilter@557c052c, org.springframework.security.web.authentication.logout.LogoutFilter@5a308221, pe.plantilla.api.config.security.JWTAuthenticationFilter@3045b225, pe.plantilla.api.config.security.JWTAuthorizationFilter@c7c1219, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@79b3eb04, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2be8485b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7a63565a, org.springframework.security.web.session.SessionManagementFilter@73b98e73, org.springframework.security.web.access.ExceptionTranslationFilter@2dd060f9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1c3f0335]
+2022-01-18 22:23:29.650 [restartedMain] [INFO ] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-01-18 22:23:29.674 [restartedMain] [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-18 22:23:29.682 [restartedMain] [INFO ] pe.plantilla.api.ApiBaseApplication - Started ApiBaseApplication in 1.917 seconds (JVM running for 3.238)
+2022-01-18 22:24:26.357 [http-nio-8080-exec-1] [INFO ] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-01-18 22:24:26.357 [http-nio-8080-exec-1] [INFO ] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2022-01-18 22:34:51.868 [restartedMain] [INFO ] pe.plantilla.api.ApiBaseApplication - Starting ApiBaseApplication using Java 11.0.11 on LSTKLM290304 with PID 3572 (C:\Users\omar.yarleque\Documents\Personal Project\latina\ApiPlantilla\target\classes started by omar.yarleque in C:\Users\omar.yarleque\Documents\Personal Project\latina\ApiPlantilla)
+2022-01-18 22:34:51.868 [restartedMain] [INFO ] pe.plantilla.api.ApiBaseApplication - No active profile set, falling back to default profiles: default
+2022-01-18 22:34:52.092 [restartedMain] [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-01-18 22:34:52.115 [restartedMain] [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 245 ms
+2022-01-18 22:34:52.143 [restartedMain] [INFO ] pe.plantilla.api.ApiBaseApplication$$EnhancerBySpringCGLIB$$7d3c42d - Log4j2 cargado desde el archivo : C:\Users\omar.yarleque\Documents\Personal Project\latina\ApiPlantilla\src\main\resources\log4j2.xml
+2022-01-18 22:34:52.219 [restartedMain] [INFO ] org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@ed5c8e0, org.springframework.security.web.context.SecurityContextPersistenceFilter@3aac1563, org.springframework.security.web.header.HeaderWriterFilter@5aae3024, org.springframework.web.filter.CorsFilter@46ae7e38, org.springframework.security.web.authentication.logout.LogoutFilter@6dd4fd96, pe.plantilla.api.config.security.JWTAuthenticationFilter@42bee2c, pe.plantilla.api.config.security.JWTAuthorizationFilter@3c2cd8cd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3b4a8d98, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@10ceb5c5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1c9e9560, org.springframework.security.web.session.SessionManagementFilter@1a17aef3, org.springframework.security.web.access.ExceptionTranslationFilter@2fa5d846, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1fb4f17d]
+2022-01-18 22:34:52.280 [restartedMain] [INFO ] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-01-18 22:34:52.287 [restartedMain] [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-18 22:34:52.290 [restartedMain] [INFO ] pe.plantilla.api.ApiBaseApplication - Started ApiBaseApplication in 0.459 seconds (JVM running for 685.845)
+2022-01-18 22:34:52.291 [restartedMain] [INFO ] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-01-18 23:02:05.002 [RMI TCP Connection(5)-127.0.0.1] [INFO ] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2022-01-18 23:36:06.127 [main] [INFO ] org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [pe.plantilla.api.ApiBaseApplicationTests], using SpringBootContextLoader
+2022-01-18 23:36:06.154 [main] [INFO ] org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [pe.plantilla.api.ApiBaseApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-01-18 23:36:06.155 [main] [INFO ] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [pe.plantilla.api.ApiBaseApplicationTests]: ApiBaseApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-01-18 23:36:06.355 [main] [INFO ] org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration pe.plantilla.api.ApiBaseApplication for test class pe.plantilla.api.ApiBaseApplicationTests
+2022-01-18 23:36:06.526 [main] [INFO ] org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-01-18 23:36:06.543 [main] [INFO ] org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@15bc339, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7e75bf2d, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@385ef531, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7fc645e4, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@205b132e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@73044cdf, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3cbcd8f3, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@719843e5, org.springframework.test.context.event.EventPublishingTestExecutionListener@9a2ec9b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@58112bc4, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2301b75, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3104f7bd, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2f5c1332, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@7ec25216, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@7cab1508]
+2022-01-18 23:36:07.036 [background-preinit] [INFO ] org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.13.Final
+2022-01-18 23:36:07.135 [main] [INFO ] pe.plantilla.api.ApiBaseApplicationTests - Starting ApiBaseApplicationTests using Java 11.0.11 on LSTKLM290304 with PID 3852 (started by omar.yarleque in C:\Users\omar.yarleque\Documents\Personal Project\latina\ApiPlantilla)
+2022-01-18 23:36:07.141 [main] [INFO ] pe.plantilla.api.ApiBaseApplicationTests - No active profile set, falling back to default profiles: default
+2022-01-18 23:36:09.734 [main] [INFO ] pe.plantilla.api.ApiBaseApplication$$EnhancerBySpringCGLIB$$605cc4bb - Log4j2 cargado desde el archivo : C:\Users\omar.yarleque\Documents\Personal Project\latina\ApiPlantilla\src\main\resources\log4j2.xml
+2022-01-18 23:36:11.661 [main] [INFO ] org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@69e2fe3b, org.springframework.security.web.context.SecurityContextPersistenceFilter@a3b858f, org.springframework.security.web.header.HeaderWriterFilter@45cd8607, org.springframework.web.filter.CorsFilter@27afbf14, org.springframework.security.web.authentication.logout.LogoutFilter@8b670c0, pe.plantilla.api.config.security.JWTAuthenticationFilter@4cfcac13, pe.plantilla.api.config.security.JWTAuthorizationFilter@5c25d0d1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@72b40f87, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4e94669c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@22c8ee48, org.springframework.security.web.session.SessionManagementFilter@7493d937, org.springframework.security.web.access.ExceptionTranslationFilter@384472bf, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@322b09da]
+2022-01-18 23:36:12.694 [main] [INFO ] pe.plantilla.api.ApiBaseApplicationTests - Started ApiBaseApplicationTests in 6.061 seconds (JVM running for 9.287)
+2022-01-18 23:39:05.713 [background-preinit] [INFO ] org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.13.Final
+2022-01-18 23:39:05.777 [restartedMain] [INFO ] pe.plantilla.api.ApiBaseApplication - Starting ApiBaseApplication using Java 11.0.11 on LSTKLM290304 with PID 17784 (C:\Users\omar.yarleque\Documents\Personal Project\latina\ApiPlantilla\target\classes started by omar.yarleque in C:\Users\omar.yarleque\Documents\Personal Project\latina\ApiPlantilla)
+2022-01-18 23:39:05.777 [restartedMain] [INFO ] pe.plantilla.api.ApiBaseApplication - No active profile set, falling back to default profiles: default
+2022-01-18 23:39:05.840 [restartedMain] [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-18 23:39:06.464 [restartedMain] [ERROR] org.springframework.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Error processing condition on org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration.propertySourcesPlaceholderConfigurer
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForBeanMethod(ConfigurationClassBeanDefinitionReader.java:193) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:153) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:129) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:343) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:746) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:564) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:765) [spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) [spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338) [spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) [spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) [spring-boot-2.5.7.jar:2.5.7]
+	at pe.plantilla.api.ApiBaseApplication.main(ApiBaseApplication.java:31) [classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.5.7.jar:2.5.7]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@77556fd]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:358) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:414) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$2(AbstractAutowireCapableBeanFactory.java:765) ~[spring-beans-5.3.13.jar:5.3.13]
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1705) ~[?:?]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:764) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:703) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:674) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1670) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:570) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:542) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.collectBeanNamesForType(OnBeanCondition.java:238) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:231) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:221) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchingBeans(OnBeanCondition.java:169) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:144) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	... 21 more
+Caused by: java.lang.NoClassDefFoundError: javax/servlet/Filter
+	at java.lang.Class.getDeclaredMethods0(Native Method) ~[?:?]
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:3166) ~[?:?]
+	at java.lang.Class.getDeclaredMethods(Class.java:2309) ~[?:?]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:358) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:414) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$2(AbstractAutowireCapableBeanFactory.java:765) ~[spring-beans-5.3.13.jar:5.3.13]
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1705) ~[?:?]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:764) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:703) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:674) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1670) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:570) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:542) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.collectBeanNamesForType(OnBeanCondition.java:238) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:231) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:221) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchingBeans(OnBeanCondition.java:169) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:144) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	... 21 more
+Caused by: java.lang.ClassNotFoundException: javax.servlet.Filter
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+	at java.lang.Class.getDeclaredMethods0(Native Method) ~[?:?]
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:3166) ~[?:?]
+	at java.lang.Class.getDeclaredMethods(Class.java:2309) ~[?:?]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:358) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:414) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$2(AbstractAutowireCapableBeanFactory.java:765) ~[spring-beans-5.3.13.jar:5.3.13]
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1705) ~[?:?]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:764) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:703) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:674) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1670) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:570) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:542) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.collectBeanNamesForType(OnBeanCondition.java:238) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:231) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:221) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchingBeans(OnBeanCondition.java:169) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:144) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	... 21 more
+2022-01-18 23:39:06.477 [restartedMain] [WARN ] org.springframework.boot.SpringApplication - Unable to close ApplicationContext
+java.lang.IllegalStateException: Failed to introspect Class [org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@77556fd]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:358) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:414) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$2(AbstractAutowireCapableBeanFactory.java:765) ~[spring-beans-5.3.13.jar:5.3.13]
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1705) ~[?:?]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:764) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:703) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:674) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1670) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:570) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:542) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:667) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:659) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1300) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.boot.SpringApplication.getExitCodeFromMappedException(SpringApplication.java:897) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.getExitCodeFromException(SpringApplication.java:885) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.handleExitCode(SpringApplication.java:872) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:813) [spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:348) [spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) [spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) [spring-boot-2.5.7.jar:2.5.7]
+	at pe.plantilla.api.ApiBaseApplication.main(ApiBaseApplication.java:31) [classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.5.7.jar:2.5.7]
+Caused by: java.lang.NoClassDefFoundError: javax/servlet/Filter
+	at java.lang.Class.getDeclaredMethods0(Native Method) ~[?:?]
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:3166) ~[?:?]
+	at java.lang.Class.getDeclaredMethods(Class.java:2309) ~[?:?]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463) ~[spring-core-5.3.13.jar:5.3.13]
+	... 26 more
+Caused by: java.lang.ClassNotFoundException: javax.servlet.Filter
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+	at java.lang.Class.getDeclaredMethods0(Native Method) ~[?:?]
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:3166) ~[?:?]
+	at java.lang.Class.getDeclaredMethods(Class.java:2309) ~[?:?]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463) ~[spring-core-5.3.13.jar:5.3.13]
+	... 26 more
+2022-01-18 23:48:05.951 [background-preinit] [INFO ] org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.13.Final
+2022-01-18 23:48:06.021 [restartedMain] [INFO ] pe.plantilla.api.ApiBaseApplication - Starting ApiBaseApplication using Java 11.0.11 on LSTKLM290304 with PID 6392 (C:\Users\omar.yarleque\Documents\Personal Project\latina\ApiPlantilla\target\classes started by omar.yarleque in C:\Users\omar.yarleque\Documents\Personal Project\latina\ApiPlantilla)
+2022-01-18 23:48:06.022 [restartedMain] [INFO ] pe.plantilla.api.ApiBaseApplication - No active profile set, falling back to default profiles: default
+2022-01-18 23:48:06.084 [restartedMain] [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-18 23:48:06.992 [restartedMain] [ERROR] org.springframework.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Error processing condition on org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration.propertySourcesPlaceholderConfigurer
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForBeanMethod(ConfigurationClassBeanDefinitionReader.java:193) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:153) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:129) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:343) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:746) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:564) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:765) [spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) [spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338) [spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) [spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) [spring-boot-2.5.7.jar:2.5.7]
+	at pe.plantilla.api.ApiBaseApplication.main(ApiBaseApplication.java:31) [classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.5.7.jar:2.5.7]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@77556fd]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:358) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:414) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$2(AbstractAutowireCapableBeanFactory.java:765) ~[spring-beans-5.3.13.jar:5.3.13]
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1705) ~[?:?]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:764) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:703) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:674) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1670) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:570) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:542) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.collectBeanNamesForType(OnBeanCondition.java:238) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:231) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:221) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchingBeans(OnBeanCondition.java:169) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:144) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	... 21 more
+Caused by: java.lang.NoClassDefFoundError: javax/servlet/Filter
+	at java.lang.Class.getDeclaredMethods0(Native Method) ~[?:?]
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:3166) ~[?:?]
+	at java.lang.Class.getDeclaredMethods(Class.java:2309) ~[?:?]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:358) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:414) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$2(AbstractAutowireCapableBeanFactory.java:765) ~[spring-beans-5.3.13.jar:5.3.13]
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1705) ~[?:?]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:764) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:703) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:674) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1670) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:570) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:542) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.collectBeanNamesForType(OnBeanCondition.java:238) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:231) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:221) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchingBeans(OnBeanCondition.java:169) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:144) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	... 21 more
+Caused by: java.lang.ClassNotFoundException: javax.servlet.Filter
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+	at java.lang.Class.getDeclaredMethods0(Native Method) ~[?:?]
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:3166) ~[?:?]
+	at java.lang.Class.getDeclaredMethods(Class.java:2309) ~[?:?]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:358) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:414) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$2(AbstractAutowireCapableBeanFactory.java:765) ~[spring-beans-5.3.13.jar:5.3.13]
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1705) ~[?:?]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:764) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:703) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:674) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1670) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:570) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:542) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.collectBeanNamesForType(OnBeanCondition.java:238) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:231) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:221) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchingBeans(OnBeanCondition.java:169) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:144) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	... 21 more
+2022-01-18 23:48:07.016 [restartedMain] [WARN ] org.springframework.boot.SpringApplication - Unable to close ApplicationContext
+java.lang.IllegalStateException: Failed to introspect Class [org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@77556fd]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:358) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:414) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$2(AbstractAutowireCapableBeanFactory.java:765) ~[spring-beans-5.3.13.jar:5.3.13]
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1705) ~[?:?]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:764) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:703) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:674) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1670) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:570) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:542) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:667) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:659) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1300) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.boot.SpringApplication.getExitCodeFromMappedException(SpringApplication.java:897) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.getExitCodeFromException(SpringApplication.java:885) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.handleExitCode(SpringApplication.java:872) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:813) [spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:348) [spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) [spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) [spring-boot-2.5.7.jar:2.5.7]
+	at pe.plantilla.api.ApiBaseApplication.main(ApiBaseApplication.java:31) [classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.5.7.jar:2.5.7]
+Caused by: java.lang.NoClassDefFoundError: javax/servlet/Filter
+	at java.lang.Class.getDeclaredMethods0(Native Method) ~[?:?]
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:3166) ~[?:?]
+	at java.lang.Class.getDeclaredMethods(Class.java:2309) ~[?:?]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463) ~[spring-core-5.3.13.jar:5.3.13]
+	... 26 more
+Caused by: java.lang.ClassNotFoundException: javax.servlet.Filter
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+	at java.lang.Class.getDeclaredMethods0(Native Method) ~[?:?]
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:3166) ~[?:?]
+	at java.lang.Class.getDeclaredMethods(Class.java:2309) ~[?:?]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463) ~[spring-core-5.3.13.jar:5.3.13]
+	... 26 more
+2022-01-19 00:57:41.200 [background-preinit] [INFO ] org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.13.Final
+2022-01-19 00:57:41.267 [restartedMain] [INFO ] pe.plantilla.api.ApiBaseApplication - Starting ApiBaseApplication using Java 11.0.11 on LSTKLM290304 with PID 7464 (C:\Users\omar.yarleque\Documents\Personal Project\latina\ApiPlantilla\target\classes started by omar.yarleque in C:\Users\omar.yarleque\Documents\Personal Project\latina\ApiPlantilla)
+2022-01-19 00:57:41.268 [restartedMain] [INFO ] pe.plantilla.api.ApiBaseApplication - No active profile set, falling back to default profiles: default
+2022-01-19 00:57:41.333 [restartedMain] [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-19 00:57:42.338 [restartedMain] [ERROR] org.springframework.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Error processing condition on org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration.propertySourcesPlaceholderConfigurer
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForBeanMethod(ConfigurationClassBeanDefinitionReader.java:193) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:153) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:129) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:343) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:746) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:564) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:765) [spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) [spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338) [spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) [spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) [spring-boot-2.5.7.jar:2.5.7]
+	at pe.plantilla.api.ApiBaseApplication.main(ApiBaseApplication.java:31) [classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.5.7.jar:2.5.7]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@77556fd]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:358) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:414) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$2(AbstractAutowireCapableBeanFactory.java:765) ~[spring-beans-5.3.13.jar:5.3.13]
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1705) ~[?:?]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:764) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:703) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:674) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1670) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:570) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:542) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.collectBeanNamesForType(OnBeanCondition.java:238) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:231) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:221) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchingBeans(OnBeanCondition.java:169) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:144) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	... 21 more
+Caused by: java.lang.NoClassDefFoundError: javax/servlet/Filter
+	at java.lang.Class.getDeclaredMethods0(Native Method) ~[?:?]
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:3166) ~[?:?]
+	at java.lang.Class.getDeclaredMethods(Class.java:2309) ~[?:?]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:358) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:414) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$2(AbstractAutowireCapableBeanFactory.java:765) ~[spring-beans-5.3.13.jar:5.3.13]
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1705) ~[?:?]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:764) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:703) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:674) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1670) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:570) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:542) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.collectBeanNamesForType(OnBeanCondition.java:238) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:231) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:221) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchingBeans(OnBeanCondition.java:169) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:144) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	... 21 more
+Caused by: java.lang.ClassNotFoundException: javax.servlet.Filter
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+	at java.lang.Class.getDeclaredMethods0(Native Method) ~[?:?]
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:3166) ~[?:?]
+	at java.lang.Class.getDeclaredMethods(Class.java:2309) ~[?:?]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:358) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:414) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$2(AbstractAutowireCapableBeanFactory.java:765) ~[spring-beans-5.3.13.jar:5.3.13]
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1705) ~[?:?]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:764) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:703) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:674) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1670) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:570) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:542) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.collectBeanNamesForType(OnBeanCondition.java:238) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:231) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:221) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchingBeans(OnBeanCondition.java:169) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:144) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	... 21 more
+2022-01-19 00:57:42.366 [restartedMain] [WARN ] org.springframework.boot.SpringApplication - Unable to close ApplicationContext
+java.lang.IllegalStateException: Failed to introspect Class [org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@77556fd]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:358) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:414) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$2(AbstractAutowireCapableBeanFactory.java:765) ~[spring-beans-5.3.13.jar:5.3.13]
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1705) ~[?:?]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:764) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:703) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:674) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1670) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:570) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:542) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:667) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:659) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1300) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.boot.SpringApplication.getExitCodeFromMappedException(SpringApplication.java:897) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.getExitCodeFromException(SpringApplication.java:885) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.handleExitCode(SpringApplication.java:872) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:813) [spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:348) [spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) [spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) [spring-boot-2.5.7.jar:2.5.7]
+	at pe.plantilla.api.ApiBaseApplication.main(ApiBaseApplication.java:31) [classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.5.7.jar:2.5.7]
+Caused by: java.lang.NoClassDefFoundError: javax/servlet/Filter
+	at java.lang.Class.getDeclaredMethods0(Native Method) ~[?:?]
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:3166) ~[?:?]
+	at java.lang.Class.getDeclaredMethods(Class.java:2309) ~[?:?]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463) ~[spring-core-5.3.13.jar:5.3.13]
+	... 26 more
+Caused by: java.lang.ClassNotFoundException: javax.servlet.Filter
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+	at java.lang.Class.getDeclaredMethods0(Native Method) ~[?:?]
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:3166) ~[?:?]
+	at java.lang.Class.getDeclaredMethods(Class.java:2309) ~[?:?]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463) ~[spring-core-5.3.13.jar:5.3.13]
+	... 26 more
+2022-01-19 00:59:53.104 [background-preinit] [INFO ] org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.13.Final
+2022-01-19 00:59:53.193 [restartedMain] [INFO ] pe.plantilla.api.ApiBaseApplication - Starting ApiBaseApplication using Java 11.0.11 on LSTKLM290304 with PID 22232 (C:\Users\omar.yarleque\Documents\Personal Project\latina\ApiPlantilla\target\classes started by omar.yarleque in C:\Users\omar.yarleque\Documents\Personal Project\latina\ApiPlantilla)
+2022-01-19 00:59:53.193 [restartedMain] [INFO ] pe.plantilla.api.ApiBaseApplication - No active profile set, falling back to default profiles: default
+2022-01-19 00:59:53.920 [restartedMain] [ERROR] org.springframework.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Error processing condition on org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration.propertySourcesPlaceholderConfigurer
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForBeanMethod(ConfigurationClassBeanDefinitionReader.java:193) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:153) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:129) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:343) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:746) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:564) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:765) [spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) [spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338) [spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) [spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) [spring-boot-2.5.7.jar:2.5.7]
+	at pe.plantilla.api.ApiBaseApplication.main(ApiBaseApplication.java:31) [classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.5.7.jar:2.5.7]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@77556fd]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:358) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:414) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$2(AbstractAutowireCapableBeanFactory.java:765) ~[spring-beans-5.3.13.jar:5.3.13]
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1705) ~[?:?]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:764) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:703) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:674) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1670) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:570) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:542) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.collectBeanNamesForType(OnBeanCondition.java:238) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:231) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:221) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchingBeans(OnBeanCondition.java:169) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:144) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	... 21 more
+Caused by: java.lang.NoClassDefFoundError: javax/servlet/Filter
+	at java.lang.Class.getDeclaredMethods0(Native Method) ~[?:?]
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:3166) ~[?:?]
+	at java.lang.Class.getDeclaredMethods(Class.java:2309) ~[?:?]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:358) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:414) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$2(AbstractAutowireCapableBeanFactory.java:765) ~[spring-beans-5.3.13.jar:5.3.13]
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1705) ~[?:?]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:764) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:703) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:674) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1670) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:570) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:542) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.collectBeanNamesForType(OnBeanCondition.java:238) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:231) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:221) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchingBeans(OnBeanCondition.java:169) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:144) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	... 21 more
+Caused by: java.lang.ClassNotFoundException: javax.servlet.Filter
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+	at java.lang.Class.getDeclaredMethods0(Native Method) ~[?:?]
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:3166) ~[?:?]
+	at java.lang.Class.getDeclaredMethods(Class.java:2309) ~[?:?]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:358) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:414) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$2(AbstractAutowireCapableBeanFactory.java:765) ~[spring-beans-5.3.13.jar:5.3.13]
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1705) ~[?:?]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:764) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:703) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:674) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1670) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:570) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:542) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.collectBeanNamesForType(OnBeanCondition.java:238) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:231) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:221) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchingBeans(OnBeanCondition.java:169) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:144) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	... 21 more
+2022-01-19 00:59:53.930 [restartedMain] [WARN ] org.springframework.boot.SpringApplication - Unable to close ApplicationContext
+java.lang.IllegalStateException: Failed to introspect Class [org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@77556fd]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:358) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:414) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$2(AbstractAutowireCapableBeanFactory.java:765) ~[spring-beans-5.3.13.jar:5.3.13]
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1705) ~[?:?]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:764) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:703) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:674) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1670) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:570) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:542) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:667) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:659) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1300) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.boot.SpringApplication.getExitCodeFromMappedException(SpringApplication.java:897) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.getExitCodeFromException(SpringApplication.java:885) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.handleExitCode(SpringApplication.java:872) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:813) [spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:348) [spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) [spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) [spring-boot-2.5.7.jar:2.5.7]
+	at pe.plantilla.api.ApiBaseApplication.main(ApiBaseApplication.java:31) [classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.5.7.jar:2.5.7]
+Caused by: java.lang.NoClassDefFoundError: javax/servlet/Filter
+	at java.lang.Class.getDeclaredMethods0(Native Method) ~[?:?]
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:3166) ~[?:?]
+	at java.lang.Class.getDeclaredMethods(Class.java:2309) ~[?:?]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463) ~[spring-core-5.3.13.jar:5.3.13]
+	... 26 more
+Caused by: java.lang.ClassNotFoundException: javax.servlet.Filter
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+	at java.lang.Class.getDeclaredMethods0(Native Method) ~[?:?]
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:3166) ~[?:?]
+	at java.lang.Class.getDeclaredMethods(Class.java:2309) ~[?:?]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463) ~[spring-core-5.3.13.jar:5.3.13]
+	... 26 more
+2022-01-19 01:02:36.181 [background-preinit] [INFO ] org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.13.Final
+2022-01-19 01:02:36.246 [restartedMain] [INFO ] pe.plantilla.api.ApiBaseApplication - Starting ApiBaseApplication using Java 11.0.11 on LSTKLM290304 with PID 19480 (C:\Users\omar.yarleque\Documents\Personal Project\latina\ApiPlantilla\target\classes started by omar.yarleque in C:\Users\omar.yarleque\Documents\Personal Project\latina\ApiPlantilla)
+2022-01-19 01:02:36.246 [restartedMain] [INFO ] pe.plantilla.api.ApiBaseApplication - No active profile set, falling back to default profiles: default
+2022-01-19 01:02:37.065 [restartedMain] [ERROR] org.springframework.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Error processing condition on org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration.propertySourcesPlaceholderConfigurer
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForBeanMethod(ConfigurationClassBeanDefinitionReader.java:193) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:153) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:129) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:343) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:746) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:564) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:765) [spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) [spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338) [spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) [spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) [spring-boot-2.5.7.jar:2.5.7]
+	at pe.plantilla.api.ApiBaseApplication.main(ApiBaseApplication.java:31) [classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.5.7.jar:2.5.7]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@77556fd]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:358) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:414) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$2(AbstractAutowireCapableBeanFactory.java:765) ~[spring-beans-5.3.13.jar:5.3.13]
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1705) ~[?:?]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:764) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:703) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:674) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1670) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:570) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:542) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.collectBeanNamesForType(OnBeanCondition.java:238) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:231) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:221) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchingBeans(OnBeanCondition.java:169) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:144) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	... 21 more
+Caused by: java.lang.NoClassDefFoundError: javax/servlet/Filter
+	at java.lang.Class.getDeclaredMethods0(Native Method) ~[?:?]
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:3166) ~[?:?]
+	at java.lang.Class.getDeclaredMethods(Class.java:2309) ~[?:?]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:358) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:414) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$2(AbstractAutowireCapableBeanFactory.java:765) ~[spring-beans-5.3.13.jar:5.3.13]
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1705) ~[?:?]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:764) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:703) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:674) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1670) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:570) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:542) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.collectBeanNamesForType(OnBeanCondition.java:238) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:231) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:221) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchingBeans(OnBeanCondition.java:169) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:144) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	... 21 more
+Caused by: java.lang.ClassNotFoundException: javax.servlet.Filter
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+	at java.lang.Class.getDeclaredMethods0(Native Method) ~[?:?]
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:3166) ~[?:?]
+	at java.lang.Class.getDeclaredMethods(Class.java:2309) ~[?:?]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:358) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:414) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$2(AbstractAutowireCapableBeanFactory.java:765) ~[spring-beans-5.3.13.jar:5.3.13]
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1705) ~[?:?]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:764) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:703) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:674) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1670) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:570) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:542) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.collectBeanNamesForType(OnBeanCondition.java:238) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:231) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:221) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchingBeans(OnBeanCondition.java:169) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:144) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47) ~[spring-boot-autoconfigure-2.5.7.jar:2.5.7]
+	... 21 more
+2022-01-19 01:02:37.081 [restartedMain] [WARN ] org.springframework.boot.SpringApplication - Unable to close ApplicationContext
+java.lang.IllegalStateException: Failed to introspect Class [org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@77556fd]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:358) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:414) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$2(AbstractAutowireCapableBeanFactory.java:765) ~[spring-beans-5.3.13.jar:5.3.13]
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1705) ~[?:?]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:764) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:703) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:674) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1670) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:570) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:542) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:667) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:659) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1300) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.boot.SpringApplication.getExitCodeFromMappedException(SpringApplication.java:897) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.getExitCodeFromException(SpringApplication.java:885) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.handleExitCode(SpringApplication.java:872) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:813) [spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:348) [spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) [spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) [spring-boot-2.5.7.jar:2.5.7]
+	at pe.plantilla.api.ApiBaseApplication.main(ApiBaseApplication.java:31) [classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.5.7.jar:2.5.7]
+Caused by: java.lang.NoClassDefFoundError: javax/servlet/Filter
+	at java.lang.Class.getDeclaredMethods0(Native Method) ~[?:?]
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:3166) ~[?:?]
+	at java.lang.Class.getDeclaredMethods(Class.java:2309) ~[?:?]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463) ~[spring-core-5.3.13.jar:5.3.13]
+	... 26 more
+Caused by: java.lang.ClassNotFoundException: javax.servlet.Filter
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+	at java.lang.Class.getDeclaredMethods0(Native Method) ~[?:?]
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:3166) ~[?:?]
+	at java.lang.Class.getDeclaredMethods(Class.java:2309) ~[?:?]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463) ~[spring-core-5.3.13.jar:5.3.13]
+	... 26 more
+2022-01-19 01:09:07.611 [background-preinit] [INFO ] org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.13.Final
+2022-01-19 01:09:07.757 [restartedMain] [INFO ] pe.plantilla.api.ApiBaseApplication - Starting ApiBaseApplication using Java 11.0.11 on LSTKLM290304 with PID 9756 (C:\Users\omar.yarleque\Documents\Personal Project\latina\ApiPlantilla\target\classes started by omar.yarleque in C:\Users\omar.yarleque\Documents\Personal Project\latina\ApiPlantilla)
+2022-01-19 01:09:07.762 [restartedMain] [INFO ] pe.plantilla.api.ApiBaseApplication - No active profile set, falling back to default profiles: default
+2022-01-19 01:09:07.827 [restartedMain] [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-19 01:09:09.803 [restartedMain] [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-01-19 01:09:09.905 [restartedMain] [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2077 ms
+2022-01-19 01:09:10.055 [restartedMain] [INFO ] pe.plantilla.api.ApiBaseApplication$$EnhancerBySpringCGLIB$$3e65c2ed - Log4j2 cargado desde el archivo : C:\Users\omar.yarleque\Documents\Personal Project\latina\ApiPlantilla\src\main\resources\log4j2.xml
+2022-01-19 01:09:10.727 [restartedMain] [INFO ] org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@8e9d565, org.springframework.security.web.context.SecurityContextPersistenceFilter@dddba0d, org.springframework.security.web.header.HeaderWriterFilter@6af44f3e, org.springframework.web.filter.CorsFilter@10dcab6e, org.springframework.security.web.authentication.logout.LogoutFilter@4c7603e8, pe.plantilla.api.config.security.JWTAuthenticationFilter@1ae45633, pe.plantilla.api.config.security.JWTAuthorizationFilter@57c23185, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3745ec7d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@34d61ae1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@114694e5, org.springframework.security.web.session.SessionManagementFilter@ffc69be, org.springframework.security.web.access.ExceptionTranslationFilter@78889c87, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4bfd7cf6]
+2022-01-19 01:09:11.179 [restartedMain] [INFO ] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-01-19 01:09:11.220 [restartedMain] [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-19 01:09:11.236 [restartedMain] [INFO ] pe.plantilla.api.ApiBaseApplication - Started ApiBaseApplication in 4.072 seconds (JVM running for 5.201)
+2022-01-19 01:09:32.650 [http-nio-8080-exec-1] [INFO ] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-01-19 01:09:32.650 [http-nio-8080-exec-1] [INFO ] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2022-01-28 01:39:20.600 [background-preinit] [INFO ] org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.13.Final
+2022-01-28 01:39:20.672 [restartedMain] [INFO ] pe.plantilla.api.ApiBaseApplication - Starting ApiBaseApplication using Java 11.0.11 on LSTKLM290304 with PID 23172 (C:\Users\omar.yarleque\Documents\Personal Project\latina\ApiPlantilla\target\classes started by omar.yarleque in C:\Users\omar.yarleque\Documents\Personal Project\latina\ApiPlantilla)
+2022-01-28 01:39:20.681 [restartedMain] [INFO ] pe.plantilla.api.ApiBaseApplication - No active profile set, falling back to default profiles: default
+2022-01-28 01:39:20.736 [restartedMain] [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-28 01:39:24.250 [restartedMain] [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-01-28 01:39:24.399 [restartedMain] [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3663 ms
+2022-01-28 01:39:25.205 [restartedMain] [ERROR] org.springframework.boot.web.embedded.tomcat.TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'JWTAuthenticationFilter': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'usuarioService': Unsatisfied dependency expressed through field 'bCryptPasswordEncoder'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webSecurity': Unsatisfied dependency expressed through field 'autho'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'JWTAuthorizationFilter' defined in file [C:\Users\omar.yarleque\Documents\Personal Project\latina\ApiPlantilla\target\classes\pe\plantilla\api\config\security\JWTAuthorizationFilter.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.authentication.AuthenticationManager' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2022-01-28 01:39:25.251 [restartedMain] [WARN ] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+2022-01-28 01:39:25.265 [restartedMain] [INFO ] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-01-28 01:39:25.298 [restartedMain] [ERROR] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in pe.plantilla.api.config.security.JWTAuthorizationFilter required a bean of type 'org.springframework.security.authentication.AuthenticationManager' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.authentication.AuthenticationManager' in your configuration.
+
+2022-01-28 03:03:49.676 [background-preinit] [INFO ] org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.13.Final
+2022-01-28 03:03:49.731 [restartedMain] [INFO ] pe.plantilla.api.ApiBaseApplication - Starting ApiBaseApplication using Java 11.0.11 on LSTKLM290304 with PID 19040 (C:\Users\omar.yarleque\Documents\Personal Project\latina\ApiPlantilla\target\classes started by omar.yarleque in C:\Users\omar.yarleque\Documents\Personal Project\latina\ApiPlantilla)
+2022-01-28 03:03:49.736 [restartedMain] [INFO ] pe.plantilla.api.ApiBaseApplication - No active profile set, falling back to default profiles: default
+2022-01-28 03:03:49.788 [restartedMain] [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-28 03:03:52.189 [restartedMain] [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-01-28 03:03:52.272 [restartedMain] [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2484 ms
+2022-01-28 03:03:52.822 [restartedMain] [ERROR] org.springframework.boot.web.embedded.tomcat.TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.BeanCreationException. Message: Error creating bean with name 'JWTAuthenticationFilter' defined in file [C:\Users\omar.yarleque\Documents\Personal Project\latina\ApiPlantilla\target\classes\pe\plantilla\api\config\security\JWTAuthenticationFilter.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: authenticationManager must be specified
+2022-01-28 03:03:52.857 [restartedMain] [WARN ] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+2022-01-28 03:03:52.857 [restartedMain] [INFO ] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-01-28 03:03:52.873 [restartedMain] [ERROR] org.springframework.boot.SpringApplication - Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:163) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:577) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:765) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-2.5.7.jar:2.5.7]
+	at pe.plantilla.api.ApiBaseApplication.main(ApiBaseApplication.java:31) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.5.7.jar:2.5.7]
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:142) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:104) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:450) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:199) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:182) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:160) ~[spring-boot-2.5.7.jar:2.5.7]
+	... 13 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'JWTAuthenticationFilter' defined in file [C:\Users\omar.yarleque\Documents\Personal Project\latina\ApiPlantilla\target\classes\pe\plantilla\api\config\security\JWTAuthenticationFilter.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: authenticationManager must be specified
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:212) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:175) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:170) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:155) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:87) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:260) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:234) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:53) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5219) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[?:?]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140) ~[?:?]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[?:?]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140) ~[?:?]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:263) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:927) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:486) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:123) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:104) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:450) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:199) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:182) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:160) ~[spring-boot-2.5.7.jar:2.5.7]
+	... 13 more
+Caused by: java.lang.IllegalArgumentException: authenticationManager must be specified
+	at org.springframework.util.Assert.notNull(Assert.java:201) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.afterPropertiesSet(AbstractAuthenticationProcessingFilter.java:182) ~[spring-security-web-5.5.3.jar:5.5.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:212) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:175) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:170) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:155) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:87) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:260) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:234) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:53) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5219) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[?:?]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140) ~[?:?]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[?:?]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140) ~[?:?]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:263) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:927) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:486) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:123) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:104) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:450) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:199) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:182) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:160) ~[spring-boot-2.5.7.jar:2.5.7]
+	... 13 more
+2022-01-28 03:12:11.451 [background-preinit] [INFO ] org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.13.Final
+2022-01-28 03:12:11.519 [restartedMain] [INFO ] pe.plantilla.api.ApiBaseApplication - Starting ApiBaseApplication using Java 11.0.11 on LSTKLM290304 with PID 24884 (C:\Users\omar.yarleque\Documents\Personal Project\latina\ApiPlantilla\target\classes started by omar.yarleque in C:\Users\omar.yarleque\Documents\Personal Project\latina\ApiPlantilla)
+2022-01-28 03:12:11.519 [restartedMain] [INFO ] pe.plantilla.api.ApiBaseApplication - No active profile set, falling back to default profiles: default
+2022-01-28 03:12:11.581 [restartedMain] [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-28 03:12:13.902 [restartedMain] [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-01-28 03:12:13.989 [restartedMain] [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2408 ms
+2022-01-28 03:12:14.675 [restartedMain] [INFO ] pe.plantilla.api.ApiBaseApplication$$EnhancerBySpringCGLIB$$882cc633 - Log4j2 cargado desde el archivo : C:\Users\omar.yarleque\Documents\Personal Project\latina\ApiPlantilla\src\main\resources\log4j2.xml
+2022-01-28 03:12:14.825 [restartedMain] [INFO ] org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@718fb0ac, org.springframework.security.web.context.SecurityContextPersistenceFilter@294bbdbc, org.springframework.security.web.header.HeaderWriterFilter@207a8be4, org.springframework.web.filter.CorsFilter@6044951e, org.springframework.security.web.authentication.logout.LogoutFilter@664ecd8a, pe.plantilla.api.config.security.JWTAuthenticationFilter@13dc73bf, pe.plantilla.api.config.security.JWTAuthorizationFilter@39c25fe5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3ea8495f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4eb9c3fe, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6b467cf4, org.springframework.security.web.session.SessionManagementFilter@366a65e6, org.springframework.security.web.access.ExceptionTranslationFilter@779db8c8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2952b96e]
+2022-01-28 03:12:15.242 [restartedMain] [INFO ] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-01-28 03:12:15.292 [restartedMain] [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-28 03:12:15.298 [restartedMain] [INFO ] pe.plantilla.api.ApiBaseApplication - Started ApiBaseApplication in 4.204 seconds (JVM running for 5.209)
+2022-01-28 03:13:27.942 [http-nio-8080-exec-1] [INFO ] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-01-28 03:13:27.942 [http-nio-8080-exec-1] [INFO ] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2022-01-28 03:26:03.094 [background-preinit] [INFO ] org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.13.Final
+2022-01-28 03:26:03.158 [restartedMain] [INFO ] pe.plantilla.api.ApiBaseApplication - Starting ApiBaseApplication using Java 11.0.11 on LSTKLM290304 with PID 1416 (C:\Users\omar.yarleque\Documents\Personal Project\latina\ApiPlantilla\target\classes started by omar.yarleque in C:\Users\omar.yarleque\Documents\Personal Project\latina\ApiPlantilla)
+2022-01-28 03:26:03.158 [restartedMain] [INFO ] pe.plantilla.api.ApiBaseApplication - No active profile set, falling back to default profiles: default
+2022-01-28 03:26:03.234 [restartedMain] [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-28 03:26:05.855 [restartedMain] [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-01-28 03:26:05.983 [restartedMain] [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2749 ms
+2022-01-28 03:26:06.969 [restartedMain] [INFO ] pe.plantilla.api.ApiBaseApplication$$EnhancerBySpringCGLIB$$21996c82 - Log4j2 cargado desde el archivo : C:\Users\omar.yarleque\Documents\Personal Project\latina\ApiPlantilla\src\main\resources\log4j2.xml
+2022-01-28 03:26:07.120 [restartedMain] [INFO ] org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@35b9a492, org.springframework.security.web.context.SecurityContextPersistenceFilter@76ff6d30, org.springframework.security.web.header.HeaderWriterFilter@3d730524, org.springframework.web.filter.CorsFilter@239e75db, org.springframework.security.web.authentication.logout.LogoutFilter@5aacdc57, pe.plantilla.api.config.security.JWTAuthenticationFilter@19c33bec, pe.plantilla.api.config.security.JWTAuthorizationFilter@7e2e5248, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4e82191c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@738411a4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4cfac4eb, org.springframework.security.web.session.SessionManagementFilter@70642adc, org.springframework.security.web.access.ExceptionTranslationFilter@4a9ee873, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@254a94ca]
+2022-01-28 03:26:07.554 [restartedMain] [INFO ] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-01-28 03:26:07.595 [restartedMain] [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-28 03:26:07.605 [restartedMain] [INFO ] pe.plantilla.api.ApiBaseApplication - Started ApiBaseApplication in 4.817 seconds (JVM running for 6.439)
+2022-01-28 03:26:13.269 [http-nio-8080-exec-1] [INFO ] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-01-28 03:26:13.269 [http-nio-8080-exec-1] [INFO ] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2022-01-28 03:31:18.127 [http-nio-8080-exec-5] [INFO ] pe.plantilla.api.service.UsuarioService - Cargando usuario {"id":1,"fecha_creacion":1643346000000,"creado_por":"1","fecha_modifcacion":null,"modifcado_por":null,"eliminado_por":null,"estado":1,"nombres":"OmarAntonio","apellidos":"Yarlequé Peña","telefono":"934175347","correo":"omar@gmail.com","direccion":"calle falsa 123","fecha_nacimiento":565851600000,"dni":"44737892","idUsuario":0,"usuario":"omar","password":"$2a$12$JEiEhaeKyyxEeGbLq/ulXONJnBRsbkxSg3EawGgpqEgBeKybxojxe","password2":null,"fechaUltAcc":1643346000000,"perfiles_id":1,"nombre_perfil":null,"personas_id":1,"activo":true}
+2022-01-28 03:31:19.955 [http-nio-8080-exec-5] [INFO ] pe.plantilla.api.service.RolService - Obteniendo roles del usuario omar
+2022-01-28 03:31:21.418 [http-nio-8080-exec-5] [INFO ] pe.plantilla.api.service.PerfilService - Obteniendo entidad con id -> 1
+2022-01-28 03:37:55.418 [background-preinit] [INFO ] org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.13.Final
+2022-01-28 03:37:55.483 [restartedMain] [INFO ] pe.plantilla.api.ApiBaseApplication - Starting ApiBaseApplication using Java 11.0.11 on LSTKLM290304 with PID 21760 (C:\Users\omar.yarleque\Documents\Personal Project\latina\ApiPlantilla\target\classes started by omar.yarleque in C:\Users\omar.yarleque\Documents\Personal Project\latina\ApiPlantilla)
+2022-01-28 03:37:55.499 [restartedMain] [INFO ] pe.plantilla.api.ApiBaseApplication - No active profile set, falling back to default profiles: default
+2022-01-28 03:37:55.560 [restartedMain] [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-28 03:37:58.168 [restartedMain] [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-01-28 03:37:58.267 [restartedMain] [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2707 ms
+2022-01-28 03:37:58.883 [restartedMain] [ERROR] org.springframework.boot.web.embedded.tomcat.TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.BeanCreationException. Message: Error creating bean with name 'JWTAuthenticationFilter' defined in file [C:\Users\omar.yarleque\Documents\Personal Project\latina\ApiPlantilla\target\classes\pe\plantilla\api\config\security\JWTAuthenticationFilter.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: authenticationManager must be specified
+2022-01-28 03:37:58.920 [restartedMain] [WARN ] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+2022-01-28 03:37:58.920 [restartedMain] [INFO ] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-01-28 03:37:58.951 [restartedMain] [ERROR] org.springframework.boot.SpringApplication - Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:163) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:577) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:765) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-2.5.7.jar:2.5.7]
+	at pe.plantilla.api.ApiBaseApplication.main(ApiBaseApplication.java:31) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.5.7.jar:2.5.7]
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:142) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:104) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:450) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:199) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:182) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:160) ~[spring-boot-2.5.7.jar:2.5.7]
+	... 13 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'JWTAuthenticationFilter' defined in file [C:\Users\omar.yarleque\Documents\Personal Project\latina\ApiPlantilla\target\classes\pe\plantilla\api\config\security\JWTAuthenticationFilter.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: authenticationManager must be specified
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:212) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:175) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:170) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:155) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:87) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:260) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:234) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:53) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5219) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) ~[?:?]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140) ~[?:?]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) ~[?:?]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140) ~[?:?]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:263) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:927) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:486) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:123) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:104) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:450) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:199) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:182) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:160) ~[spring-boot-2.5.7.jar:2.5.7]
+	... 13 more
+Caused by: java.lang.IllegalArgumentException: authenticationManager must be specified
+	at org.springframework.util.Assert.notNull(Assert.java:201) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.afterPropertiesSet(AbstractAuthenticationProcessingFilter.java:182) ~[spring-security-web-5.5.3.jar:5.5.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:212) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:175) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:170) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:155) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:87) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:260) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:234) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:53) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5219) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) ~[?:?]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140) ~[?:?]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) ~[?:?]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140) ~[?:?]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:263) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:927) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:486) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:123) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:104) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:450) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:199) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:182) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:160) ~[spring-boot-2.5.7.jar:2.5.7]
+	... 13 more

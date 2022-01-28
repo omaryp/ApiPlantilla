@@ -17,7 +17,7 @@ import pe.plantilla.api.utils.ApiException;
 
 @RestController
 @RequestMapping("/usuario")
-public class UsuarioApi extends BasicController<Usuario, IUsuarioService> {	
+public class 	UsuarioApi extends BasicController<Usuario, IUsuarioService> {
 
 	@GetMapping("/session")
 	public ResponseEntity<?> getUsuarioSession() {

@@ -4,6 +4,7 @@ public class Constants {
 
 	// Spring Security
 	public static final String LOGIN_URL = "/login";
+	public static final String RESOURCE_CAPTCHA = "/captcha";
 	public static final String HEADER_AUTHORIZACION_KEY = "Authorization";
 	public static final String TOKEN_BEARER_PREFIX = "Bearer ";
 	public static final String SECRET_PASSWORD = "..::$3CR3T_P4SS::..";
@@ -15,6 +16,5 @@ public class Constants {
 			
 	public final static int ACTIVO = 1; 
 	public final static int DESACTIVADO = 0;
-	
-	public static final String RESOURCE_CAPTCHA = "/captcha";
+
 }

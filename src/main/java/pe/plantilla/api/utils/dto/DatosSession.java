@@ -2,7 +2,7 @@ package pe.plantilla.api.utils.dto;
 
 import pe.plantilla.api.model.dto.UsuarioDto;
 
-public class Jwt {
+public class DatosSession {
 
     private String token;
     private UsuarioDto user;

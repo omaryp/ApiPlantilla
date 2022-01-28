@@ -59,10 +59,10 @@ public class UsuarioService extends BasicService<UsuarioRepository,Usuario> impl
 	
 	@Override
 	public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-		Usuario user = null;
+		Usuario user ;
 		List<Rol> roles = emptyList();
-		UsuarioDto userDto = null;
-		Perfil perfil = null;
+		UsuarioDto userDto;
+		Perfil perfil;
 
 		try {
 			user = findByUsername(username);
@@ -137,7 +137,7 @@ public class UsuarioService extends BasicService<UsuarioRepository,Usuario> impl
 	public PageInfo<Usuario> paginandoUsuario(Map<String, String> params) throws ApiException{
 		log.info("Paginando usuarios{}.",params);
 		try {
-			List<Usuario> rptaData = null;
+			List<Usuario> rptaData;
 			GeneralPageTable pagData = mapToObject(params, GeneralPageTable.class);
 			PageHelper.startPage(pagData.getPage(),pagData.getLimit());
 			
@@ -153,6 +153,21 @@ public class UsuarioService extends BasicService<UsuarioRepository,Usuario> impl
 			log.error("Error al convertir map a objeto del tipo GeneralPageTable {} - {} ",e.getMessage(),e);
 			throw new ApiException(HttpStatus.INTERNAL_SERVER_ERROR, "Error interno del API, inténtelo más tarde.", e);
 		} 
+	}
+
+	@Override
+	public UsuarioDto quitarAuth(UsuarioDto oldDto) {
+		UsuarioDto nvoDto = null;
+		nvoDto = new UsuarioDto(oldDto.getUsername(), SECRET_PASSWORD, oldDto.isEnabled(),
+				true, true, true,new ArrayList<Rol>());
+		nvoDto.setId(oldDto.getId());
+		nvoDto.setNombres(oldDto.getNombres());
+		nvoDto.setApellidos(oldDto.getApellidos());
+		nvoDto.setCorreo(oldDto.getCorreo());
+		nvoDto.setPerfil(oldDto.getPerfil());
+		nvoDto.setNombrePerfil(oldDto.getNombrePerfil());
+		nvoDto.setModulos(oldDto.getModulos());
+		return nvoDto;
 	}
 
 	private List<Usuario> procesarLista(List<Usuario> datos){

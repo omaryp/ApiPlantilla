@@ -9,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;
+import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
@@ -29,7 +30,9 @@ public class WebSecurity extends WebSecurityConfigurerAdapter {
 	@Autowired
 	private UserDetailsService userDetailsService;
 	@Autowired
-	private IRolService rolService;
+	private JWTAuthenticationFilter authe;
+	@Autowired
+	private JWTAuthorizationFilter autho;
 
 	@Bean
 	public BCryptPasswordEncoder bCryptPasswordEncoder() {
@@ -53,8 +56,8 @@ public class WebSecurity extends WebSecurityConfigurerAdapter {
 			.antMatchers(HttpMethod.POST, LOGIN_URL).permitAll()
 			.antMatchers(HttpMethod.GET, RESOURCE_CAPTCHA).permitAll()
 			.anyRequest().authenticated().and()
-				.addFilter(new JWTAuthenticationFilter(authenticationManager()))
-				.addFilter(new JWTAuthorizationFilter(authenticationManager(),rolService));
+				.addFilter(authe)
+				.addFilter(autho);
 	}
 
 	@Override
@@ -72,5 +75,11 @@ public class WebSecurity extends WebSecurityConfigurerAdapter {
 		final UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
 		source.registerCorsConfiguration("/**", configuration);
 		return source;
+	}
+
+	@Bean(name = "authManager")
+	@Override
+	public AuthenticationManager authenticationManagerBean() throws Exception {
+		return super.authenticationManagerBean();
 	}
 }
